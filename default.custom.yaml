@@ -7,8 +7,9 @@ customization:
 patch:
   schema_list:
     - { schema: double_pinyin_flypy }
-    - { schema: luna_pinyin }
-    - { schema: luna_quanpin }
+    # - { schema: luna_pinyin }
+    # - { schema: luna_quanpin }
+    # - { schema: easy_en }
   menu:
     page_size: 4
   key_binder/bindings:
