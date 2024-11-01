@@ -1,0 +1,18 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Wed Oct 23 10:02:03 2024"
+  rime_version: 1.11.2
+patch:
+  schema_list:
+    - { schema: double_pinyin_flypy }
+    - { schema: luna_pinyin }
+    - { schema: luna_quanpin }
+  menu:
+    page_size: 4
+  key_binder/bindings:
+    - { when: paging, accept: bracketleft, send: Page_Up }
+    - { when: has_menu, accept: bracketright, send: Page_Down }
+    - { when: has_menu, accept: Tab, send: Down }
+    - { when: has_menu, accept: Shift+Tab, send: Up }
